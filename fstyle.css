@@ -1,0 +1,78 @@
+body { margin: 0 auto;}
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .wrapper {} */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(img/abstract-luxury-black-gradient-with-border-black-vignette-background-studio-backdrop-well-use-as-back-drop-background-black-board-black-studio-background-black-gradient-frame_1258-180.jpg);
+}
+
+.header_body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 130px;
+  align-items: center;
+}
+
+.logo {
+  flex: 0 0 130px;
+  overflow: hidden;
+}
+
+.logo img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  display: block;}
+.header_list {
+  display: flex;
+}
+
+.header_list>li {
+  list-style: none;
+  margin: 0 0 0 20px;
+
+}
+
+.header_menu {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+.wrapper {
+
+	min-height: 90%;
+}
+footer {
+  display: flex;
+height: 10%;
+align-items: center;
+  justify-content: center;
+  background: url(img/abstract-luxury-black-gradient-with-border-black-vignette-background-studio-backdrop-well-use-as-back-drop-background-black-board-black-studio-background-black-gradient-frame_1258-180.jpg);
+}
+footer>div {  margin:20px;}
